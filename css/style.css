@@ -29,6 +29,14 @@ h1 {
   cursor: pointer;
 }
 
+.card {
+  transition: all 1s ease-in;
+}
+
+.card:hover {
+  top: -5px;
+}
+
 .card-footer {
   background-color: #fff;
   border-top: 0px;
@@ -38,12 +46,19 @@ h1 {
   color: rgb(255, 180, 0);
 }
 
-.price {
-  text-decoration: line-through;
-  color: gray;
-}
-
 .price-special {
   color: rgb(255, 72, 0);
   font-size: 20px;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+.text-gray {
+  color: gray;
 }
