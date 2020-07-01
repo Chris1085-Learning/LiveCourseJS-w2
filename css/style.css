@@ -11,6 +11,13 @@ h1 {
   font-size: 48px;
 }
 
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 24%;
+}
+
 .card {
   box-shadow: 5px 5px 5px 0px #c2c2c2;
 }
@@ -29,8 +36,8 @@ h1 {
   cursor: pointer;
 }
 
-.card {
-  transition: all 1s ease-in;
+.card-text {
+  line-height: 24px;
 }
 
 .card:hover {
